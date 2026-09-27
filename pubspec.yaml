@@ -1,0 +1,27 @@
+name: formatify
+description: "Cross-platform document formatter app built with Flutter."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Çapraz platform (Android, Web, Windows) dosya seçimi için eklenen paket:
+  file_picker: ^8.0.0
+  # Modern ikonlar ve tasarım uyumu için:
+  google_fonts: ^6.2.1
+  file_saver: ^0.4.0
+  open_file: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
